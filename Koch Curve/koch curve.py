@@ -16,6 +16,10 @@ def snowflake(lengthSide, levels):
     snowflake(lengthSide, levels - 1)
     t.left(60)
     snowflake(lengthSide, levels - 1)
+    t.left(90)
+    snowflake(lengthSide, levels - 1)
+    t.left(160)
+    snowflake(lengthSide, levels - 1)
 
 
 # main function
@@ -34,4 +38,5 @@ if __name__ == "__main__":
         t.right(120)
     # To control the closing windows of the turtle
     #mainloop()
+
 
