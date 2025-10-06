@@ -9,10 +9,9 @@ import time
 master
 import random
 
-deck = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11] * 4
+deck = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11, 12, 13] * 4
 
 random.shuffle(deck)
-
 
 print('********************************************************** \n Welcome to the game Casino - BLACK JACK ! \n**********************************************************')
 time.sleep(2)
