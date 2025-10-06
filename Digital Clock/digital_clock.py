@@ -39,10 +39,8 @@ time()
 
 mainloop() 
 =======
-label = Label(root, font=("Arial", 30, 'bold'), bg="black", fg="white", bd =30)
+label = Label(root, font=("Times Roman", 30, 'bold'), bg="white", fg="black", bd =30)
 label.grid(row =0, column=1)
-
-
 
 #function to declare the tkniter clock
 def dig_clock():
